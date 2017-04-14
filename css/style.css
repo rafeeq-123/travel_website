@@ -1,0 +1,20 @@
+
+#picture{
+  width: 100%;
+  }
+
+body {
+  font-family: "Raleway",
+    Arial, sans-serif;
+  }
+
+.w3-row input{
+  margin-bottom: -6px
+}
+
+.pbgimg {
+    background-image: url('images/paris.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
