@@ -1,150 +1,34 @@
 <!DOCTYPE html>
 <html>
-<title></title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('images/questions.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
 <body>
+<header class="w3-container w3-xlarge w3-padding-24">
+    <a href="#questions" class="w3-left w3-button w3-white">Q/A</a>
+  </header> 
 
-<div class="w3-content" style="max-width:1800px">
-
-  <header class="w3-container w3-xlarge w3-padding-24">
-    <a href="#travels" class="w3-left w3-button w3-white">MY TRAVELS</a>
-    <a href="#about" class="w3-right w3-button w3-white">ABOUT</a>
-  </header>  
-
-  <div class="w3-row" >
-      <input type="image" src="images/bogota.jpg" id="picture" onclick="document.location.href = '#bogota'" title="Bogota">
-      <input type="image"  src="images/granada.jpg" id="picture" onclick="document.location.href = '#granada'" title="Granada">
-      <input type="image" src="images/medellin.jpg" id="picture" onclick="document.location.href = '#medellin'" title="Medellin">
-    </div>
-
-    <div class="w3-row">
-      <input type="image" src="images/madrid.jpg" id="picture" onclick="document.location.href = '#madrid'" title="Madrid">
-      <input type="image" src="images/london.jpg" id="picture" onclick="document.location.href = '#london'" title="London">
-      <input type="image" src="images/paris.jpg" id="picture" onclick="document.location.href = '#paris'" title="Paris" >
-      <input type="image" src="images/questions.jpg" id="picture" onclick="document.location.href = '#questions'" title="Q/A">
-    </div>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle">
+    <h1  class="w3-jumbo w3-animate-top"><u>Q&A</u></h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
   </div>
 </div>
-
-<section class="w3-light-grey w3-padding-64 w3-center">
-    <h2 id="bogota">Bogota</h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-</section>
-<section class="w3-light-grey w3-padding-64 w3-center" id="paris">
-    <h2><u>Paris</u></h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-</section>
-
-<section class="w3-light-grey w3-padding-64 w3-center" id="madrid">
-    <h2><u>Madrid</u></h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-</section>
-<section class="w3-light-grey w3-padding-64 w3-center" id="medellin">
-    <h2><u>Medellin</u></h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-</section>
-<section class="w3-light-grey w3-padding-64 w3-center" id="granada">
-    <h2><u>Granada</u></h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-</section>
-
-<section class="w3-light-grey w3-padding-64 w3-center" id="london">
-    <h2><u>London</u></h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-</section>
-
-<section class="w3-light-grey w3-padding-64 w3-center" id="questions">
-    <h2><u>Q/A</u></h2>
-<h3>Rank your 5 favorite, and least favorite, activities from this list</h3>
+<center>
+<section>
+<h3 id="questions">Rank your 5 favorite, and least favorite, activities from this list</h3>
 <p>
 <ul>1.Submit bug reports and potentially bug fixes to closed and open source projects that Netlify maintains on GitHub.</ul>
 <ul>2. Debug a customer's build using a programming language and framework that you've never seen before.</ul>
@@ -207,14 +91,8 @@ I love messing around with API’s it really adds great layer to most applicatio
     Asking what the customer has tried to solve the problem on their own if anything to avoid repetition. It can be really annoying for someone asking for to receive advice that or an answer that they have tried already; Try avoiding telling the customer “turn it off and on” typespe of response if it has been tried. 
   </p>
 </section>
+<footer><p>Posted by: Rafeeq Wilson</p></footer>
 
-
-<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
-  
-
-
- <center> <p>Posted by: Rafeeq Wilson</p></center>
-</footer>
- 
+</center>
 </body>
 </html>
